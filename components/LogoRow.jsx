@@ -13,8 +13,8 @@ export default function LogoRow() {
 
   const translations = {
     title: {
-      en: 'Where I work:',
-      id: 'Tempat saya bekerja:'
+      en: 'the place where I studied and did my internship:',
+      id: 'tempat saya menempuh pendidikan dan magang:'
     }
   };
   
