@@ -45,7 +45,6 @@ export default function Nav() {
           <ul className="flex gap-4 lg:gap-6">
             <li><Link href="/" className="hover:opacity-70 transition text-sm">{translations.home[language]}</Link></li>
             <li><Link href="/projects" className="hover:opacity-70 transition text-sm">{translations.projects[language]}</Link></li>
-            <li><Link href="/blog" className="hover:opacity-70 transition text-sm">{translations.blog[language]}</Link></li>
             <li><Link href="/about" className="hover:opacity-70 transition text-sm">{translations.about[language]}</Link></li>
             <li><Link href="/certificates" className="hover:opacity-70 transition text-sm">{translations.certificates[language]}</Link></li>
             <li><Link href="/contact" className="hover:opacity-70 transition text-sm">{translations.contact[language]}</Link></li>
@@ -75,7 +74,6 @@ export default function Nav() {
           <ul className="flex flex-col px-4 py-4 gap-4">
             <li><Link href="/" onClick={() => setIsOpen(false)} className="block hover:opacity-70 transition">{translations.home[language]}</Link></li>
             <li><Link href="/projects" onClick={() => setIsOpen(false)} className="block hover:opacity-70 transition">{translations.projects[language]}</Link></li>
-            <li><Link href="/blog" onClick={() => setIsOpen(false)} className="block hover:opacity-70 transition">{translations.blog[language]}</Link></li>
             <li><Link href="/about" onClick={() => setIsOpen(false)} className="block hover:opacity-70 transition">{translations.about[language]}</Link></li>
             <li><Link href="/certificates" onClick={() => setIsOpen(false)} className="block hover:opacity-70 transition">{translations.certificates[language]}</Link></li>
             <li><Link href="/contact" onClick={() => setIsOpen(false)} className="block hover:opacity-70 transition">{translations.contact[language]}</Link></li>
